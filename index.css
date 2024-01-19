@@ -1,0 +1,18 @@
+body {
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: white;
+    display: grid;
+    padding: 1rem;
+}
+
+.label-left {
+    grid-column: 1;
+}
+
+.dropdown-right {
+    grid-column: 2;
+}
