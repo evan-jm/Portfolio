@@ -13,15 +13,23 @@
 }
 
 .buttons button {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 5px;
+  padding: 10px 20px;
   background-color: aqua;
-  border-radius: 10px;
-  border-bottom: 5px solid;
-  border-right: 5px solid;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .buttons button:hover {
-  border-bottom: 0;
-  border-right: 0;
+  background-color: #4da8da;
+  transform: scale(1.05);
+}
+
+.buttons button:active {
+  transform: scale(0.95);
 }
