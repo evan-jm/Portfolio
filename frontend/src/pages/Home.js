@@ -1,4 +1,5 @@
-import Navbar from "../components/Navbar/Navbar.js";
+import "./Home.css";
+
 import Landing from "../components/Landing/Landing.js";
 import About from "../components/About/About.js";
 import Experience from "../components/Experience/Experience.js";
@@ -9,7 +10,6 @@ import Education from "../components/Education/Education.js";
 const Home = () => {
   return (
     <div className="home">
-      <Navbar />
       <Landing />
       <About />
       <Projects />

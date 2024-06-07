@@ -2,7 +2,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h3>
         If you would like to get in contact with me I can be reached either by
         the email below or by phone also listed below
