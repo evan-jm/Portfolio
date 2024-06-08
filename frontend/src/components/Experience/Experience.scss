@@ -1,8 +1,17 @@
+@import "../../variables";
+
 .experience {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $components;
+  padding: $component-padding;
+  border-radius: $component-border-radius;
+}
+
+.experience li {
+  margin-left: 20px;
 }
 
 .header {
@@ -10,4 +19,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.entry {
+  margin-bottom: 25px;
 }

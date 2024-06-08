@@ -1,8 +1,19 @@
+@import "../../variables";
+
 .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $components;
+  border-radius: $component-border-radius;
+  padding: $component-padding;
+}
+
+.about p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .buttons {
@@ -15,18 +26,18 @@
 .buttons button {
   margin: 0 5px;
   padding: 10px 20px;
-  background-color: aqua;
+  background-color: $primary;
   border: none;
   border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: black;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .buttons button:hover {
-  background-color: #4da8da;
+  background-color: $primary-hover;
   transform: scale(1.05);
 }
 
