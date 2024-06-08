@@ -14,16 +14,17 @@
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
   padding: 10px;
   border-radius: 20px;
   font-size: 18px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: $primary;
 }
 
 .navbar a:hover {
-  background-color: $primary;
+  background-color: $primary-hover;
   transform: scale(1.05);
   color: black;
 }

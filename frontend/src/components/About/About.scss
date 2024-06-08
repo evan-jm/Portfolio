@@ -10,20 +10,40 @@
   padding: $component-padding;
 }
 
+.about h2 {
+  margin-bottom: $component-item-spacing;
+}
+
 .about p {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: $component-item-spacing;
   text-align: center;
 }
 
-.buttons {
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-bottom: $component-item-spacing;
+}
+
+.skills ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.about .links {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.buttons button {
+.about .links a {
   margin: 0 5px;
   padding: 10px 20px;
   background-color: $primary;
@@ -31,16 +51,18 @@
   border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
-  color: black;
+  color: white;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
 }
 
-.buttons button:hover {
+.about .links a:hover {
   background-color: $primary-hover;
+  color: black;
   transform: scale(1.05);
 }
 
-.buttons button:active {
+.about .links a:active {
   transform: scale(0.95);
 }

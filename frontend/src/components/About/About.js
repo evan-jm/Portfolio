@@ -1,10 +1,6 @@
 import "./About.scss";
 
 const About = () => {
-  const navigateToPage = (url) => {
-    window.open(url, "_blank");
-  };
-
   return (
     <div className="about" id="about">
       <h2>About Me</h2>
@@ -19,21 +15,30 @@ const About = () => {
         relentless drive for excellence to every project I undertake. Let's
         collaborate and build something extraordinary together.
       </p>
-      <div className="buttons">
-        <button
-          onClick={() => navigateToPage("https://www.github.com/evan-jm")}
-        >
+      <div className="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>React.js</li>
+          <li>MongoDB</li>
+          <li>RESTful API</li>
+        </ul>
+      </div>
+      <div className="links">
+        <a href="https://github.com/evan-jm" target="blank">
           GitHub
-        </button>
-        <button
-          onClick={() =>
-            navigateToPage(
-              "https://www.linkedin.com/in/evan-mitchell-89817b260/"
-            )
-          }
+        </a>
+        <a
+          href="https://www.linkedin.com/in/evan-mitchell-89817b260/"
+          target="blank"
         >
           LinkedIn
-        </button>
+        </a>
       </div>
     </div>
   );
