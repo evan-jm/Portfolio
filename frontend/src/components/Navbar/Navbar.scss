@@ -2,7 +2,6 @@
 
 .navbar {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   background-color: $components;
@@ -10,6 +9,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 25px;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    padding: 10px;
+  }
 }
 
 .navbar a {
@@ -21,6 +25,11 @@
   font-size: 18px;
   transition: background-color 0.3s ease, transform 0.2s ease;
   background-color: $primary;
+
+  @media (max-width: 768px) {
+    // Adjust this breakpoint as needed
+    margin-top: 5px; // Add some space between links on smaller screens
+  }
 }
 
 .navbar a:hover {

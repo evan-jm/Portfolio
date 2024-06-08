@@ -30,10 +30,14 @@
 
 .skills ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-self: center;
   justify-items: center;
   width: 100%;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .about .links {
