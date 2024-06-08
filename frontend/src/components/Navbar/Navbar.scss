@@ -13,6 +13,20 @@
   @media (max-width: 500px) {
     flex-direction: column;
     padding: 10px;
+
+    img {
+      display: block;
+    }
+
+    a {
+      display: none;
+    }
+  }
+}
+
+.navbar img {
+  @media (min-width: 500px) {
+    display: none;
   }
 }
 
@@ -25,11 +39,6 @@
   font-size: 18px;
   transition: background-color 0.3s ease, transform 0.2s ease;
   background-color: $primary;
-
-  @media (max-width: 768px) {
-    // Adjust this breakpoint as needed
-    margin-top: 5px; // Add some space between links on smaller screens
-  }
 }
 
 .navbar a:hover {

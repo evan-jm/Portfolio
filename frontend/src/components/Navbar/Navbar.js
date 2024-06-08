@@ -1,8 +1,10 @@
 import "./Navbar.scss";
+import hamburgerSVG from "../../hamburger.svg";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
+      <img src={hamburgerSVG} />
       <a href="#landing">Landing</a>
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
