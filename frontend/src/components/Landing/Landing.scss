@@ -8,4 +8,11 @@
   background-color: $components;
   padding: $component-padding;
   border-radius: $component-border-radius;
+  box-shadow: $shadow;
+  transition: $transition;
+}
+
+.landing:hover {
+  transform: $transform;
+  box-shadow: $shadow-post-transition;
 }

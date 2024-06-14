@@ -8,6 +8,13 @@
   background-color: $components;
   border-radius: $component-border-radius;
   padding: $component-padding;
+  box-shadow: $shadow;
+  transition: $transition;
+}
+
+.about:hover {
+  transform: $transform;
+  box-shadow: $shadow-post-transition;
 }
 
 .about h2 {
