@@ -28,23 +28,10 @@
 
 .skills {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
-  margin-bottom: $component-item-spacing;
-}
-
-.skills ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  justify-self: center;
-  justify-items: center;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
   width: 100%;
-
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .about .links {

@@ -12,6 +12,23 @@
   transition: $transition;
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.content > p {
+  text-align: center;
+}
+
 .landing:hover {
   transform: $transform;
   box-shadow: $shadow-post-transition;
