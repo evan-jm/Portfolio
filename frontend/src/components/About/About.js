@@ -44,9 +44,6 @@ const About = () => {
             <li>OracleSQL</li>
           </ul>
         </div>
-        <div className="tools">
-          <h4>Tools</h4>
-        </div>
       </div>
       <div className="links">
         <a href="https://github.com/evan-jm" target="blank">
