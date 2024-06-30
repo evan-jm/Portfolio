@@ -3,17 +3,12 @@
 .experience {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: baseline;
   background-color: $components;
   padding: $component-padding;
   border-radius: $component-border-radius;
   box-shadow: $shadow;
   transition: $transition;
-}
-
-.experience:hover {
-  transform: $transform;
-  box-shadow: $shadow-post-transition;
 }
 
 .experience h2 {

@@ -1,13 +1,16 @@
 @import "./variables";
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
   background-color: $background;
-  margin-top: 10px;
+  width: 75%;
+  margin: auto;
+}
+
+.app {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

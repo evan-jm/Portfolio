@@ -9,7 +9,6 @@
   padding: $component-padding;
   border-radius: $component-border-radius;
   box-shadow: $shadow;
-  transition: $transition;
 }
 
 .content {
@@ -27,9 +26,4 @@
 
 .content > p {
   text-align: center;
-}
-
-.landing:hover {
-  transform: $transform;
-  box-shadow: $shadow-post-transition;
 }

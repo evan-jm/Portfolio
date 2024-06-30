@@ -3,18 +3,14 @@
 .projects {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
   background-color: $components;
   padding: $component-padding;
   border-radius: $component-border-radius;
   box-shadow: $shadow;
   transition: $transition;
-}
-
-.projects:hover {
-  transform: $transform;
-  box-shadow: $shadow-post-transition;
+  gap: 10px;
 }
 
 .projects .grouping {

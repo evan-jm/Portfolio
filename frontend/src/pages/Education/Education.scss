@@ -1,14 +1,18 @@
 @import "../../variables";
 
 .education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   background-color: $components;
   padding: $component-padding;
   border-radius: $component-border-radius;
   box-shadow: $shadow;
   transition: $transition;
+  width: 100%;
 }
 
-.education:hover {
-  transform: $transform;
-  box-shadow: $shadow-post-transition;
+.education h2 {
+  align-self: center;
 }
