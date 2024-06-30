@@ -9,6 +9,15 @@ const Experience = () => {
         </center>
         <div className="entry">
           <div className="header">
+            <h4>Full Stack Developer | Freelance Developer</h4>
+            <p>July 2024 - Present</p>
+          </div>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div className="entry">
+          <div className="header">
             <h4>Software Engineer | Komo Machine Inc.</h4>
             <p>May 2024 - Present</p>
           </div>

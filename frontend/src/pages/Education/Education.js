@@ -5,10 +5,13 @@ const Education = () => {
     <div className="container">
       <div className="education" id="education">
         <h2>Education</h2>
-        <div className="contents">
+        <div className="header">
           <h4>Bachelor of Science in Computer Science</h4>
+          <p>Sep. 2020 - Dec. 2023</p>
+        </div>
+        <div className="contents">
           <p>Stockton University</p>
-          <p>Graduated Cum Laude in December 2023 (GPA: 3.81)</p>
+          <p>Graduated Cum Laude (GPA: 3.81)</p>
         </div>
       </div>
     </div>
