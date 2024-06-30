@@ -11,7 +11,7 @@ html {
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 400px) {
+  @media (max-width: $small-screen-transition) {
     height: unset;
   }
 }
@@ -19,7 +19,7 @@ html {
 .nav-container button {
   display: none;
 
-  @media (max-width: 400px) {
+  @media (max-width: $small-screen-transition) {
     display: block;
   }
 }
@@ -35,7 +35,7 @@ html {
   gap: 10px;
   box-shadow: $shadow;
 
-  @media (max-width: 400px) {
+  @media (max-width: $small-screen-transition) {
     display: none;
   }
 
