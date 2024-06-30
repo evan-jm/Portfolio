@@ -10,6 +10,18 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 400px) {
+    height: unset;
+  }
+}
+
+.nav-container button {
+  display: none;
+
+  @media (max-width: 400px) {
+    display: block;
+  }
 }
 
 .navbar {
@@ -22,6 +34,14 @@ html {
   padding: 25px;
   gap: 10px;
   box-shadow: $shadow;
+
+  @media (max-width: 400px) {
+    display: none;
+  }
+
+  &.visible {
+    display: flex;
+  }
 }
 
 .navbar a {

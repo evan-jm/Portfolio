@@ -4,7 +4,7 @@ import image from "../../image.jpeg";
 const Home = () => {
   return (
     <div className="container">
-      <div className="landing" id="landing">
+      <div className="landing">
         <h2>Welcome to my portfolio! - Evan Mitchell</h2>
         <div className="content">
           <img src={image} alt="#" />

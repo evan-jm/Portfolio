@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: $components;
   padding: $component-padding;
   border-radius: $component-border-radius;
@@ -18,6 +19,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 

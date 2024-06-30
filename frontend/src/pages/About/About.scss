@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: $components;
   border-radius: $component-border-radius;
   padding: $component-padding;
@@ -29,6 +30,7 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -37,6 +39,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .about .links a {

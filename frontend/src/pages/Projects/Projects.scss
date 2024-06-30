@@ -9,12 +9,13 @@
   padding: $component-padding;
   border-radius: $component-border-radius;
   box-shadow: $shadow;
-  transition: $transition;
-  gap: 10px;
 }
 
 .projects .grouping {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 25px;
 }
