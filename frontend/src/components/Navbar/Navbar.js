@@ -1,14 +1,16 @@
 import "./Navbar.scss";
-import hamburgerSVG from "../../hamburger.svg";
+
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={hamburgerSVG} alt="Hamburger Menu" />
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
+      <Link to="/Portfolio">Home</Link>
+      <Link to="/Portfolio/about">About</Link>
+      <Link to="/Portfolio/projects">Projects</Link>
+      <Link to="/Portfolio/experience">Experience</Link>
+      <Link to="/Portfolio/education">Education</Link>
+      <Link to="/Portfolio/contact">Contact Me</Link>
     </nav>
   );
 };

@@ -1,7 +1,7 @@
-import "./Landing.scss";
+import "./Home.scss";
 import image from "../../image.jpeg";
 
-const Landing = () => {
+const Home = () => {
   return (
     <div className="landing" id="landing">
       <h2>Welcome to my portfolio! - Evan Mitchell</h2>
@@ -18,4 +18,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Home;
